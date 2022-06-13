@@ -3,13 +3,24 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: calc(98vh - 100px);
   flex: 1;
+  gap: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.main div div {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
