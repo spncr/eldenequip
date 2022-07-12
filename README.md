@@ -1,3 +1,15 @@
+# Elden Equip
+Sometimes I'm trying to find some armor in Elden ring and I want to hit that 61 poise
+but also have cool looking armor that isn't veterans
+wouldn't it be nice to have a calculator that could make suggestions
+and be easy to use
+and visual
+
+well, this isn't that yet
+but it might be one day.
+
+
+# I used Next even if it isn't the right fit for a SPA?
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,8 +17,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
