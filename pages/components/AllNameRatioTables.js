@@ -10,7 +10,8 @@ function NameRatioTable(props) {
   const item_ratios = props.items.map( item => {
     return [
       item["name"],
-      (Number(item["poise"])/Number(item["weight"])).toFixed(2)
+      (Number(item["poise"])/Number(item["weight"])).toFixed(2),
+      item["poise"],
     ]
   })
 
@@ -29,6 +30,9 @@ function NameRatioTable(props) {
         </td>
         <td key={key + "weight"}>
           {item[1]}
+        </td>
+        <td key={key + "poise"}>
+          {item[2]}
         </td>
       </tr>
     )
